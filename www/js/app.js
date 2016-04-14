@@ -38,16 +38,11 @@ angular.module('starter', ['ionic'])
   "Veigar","VelKoz","Viktor","Vi","Vladimir","Volibear","Warwick","Wukong","Xerath","XinZhao",
   "Yasuo","Yorick","Zac","Zed","Ziggs","Zilean","Zyra"];
   $scope.championpics = [];
-  for(var i = 0; i<$scope.champions.length; i++) {
-    $scope.championpics.push($scope.champions[i] + "Square.png");
-  }
   $scope.troll = function() {
     var lettere = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W",
     "X","Y","Z"];
     $scope.lettera = lettere[Math.floor(Math.random() * lettere.length)];
-    $scope.championpicstroll = $scope.championpics.filter(function(el) {
-      return el.substring(0,1) === $scope.lettera;
-    })
+
     $scope.championstroll = $scope.champions.filter(function(el) {
       return el.substring(0,1) === $scope.lettera;
     })
