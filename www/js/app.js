@@ -37,7 +37,6 @@ angular.module('starter', ['ionic'])
   "Tristana","Trundle","Tryndamere","TwistedFate","Twitch","Udyr","Urgot","Varus","Vayne",
   "Veigar","VelKoz","Viktor","Vi","Vladimir","Volibear","Warwick","Wukong","Xerath","XinZhao",
   "Yasuo","Yorick","Zac","Zed","Ziggs","Zilean","Zyra"];
-  $scope.championpics = [];
   $scope.troll = function() {
     var lettere = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W",
     "X","Y","Z"];
