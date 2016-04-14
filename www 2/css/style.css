@@ -1,0 +1,21 @@
+/* Empty. Add your own CSS if you like */
+#icona-rosa {
+  height: 34px;
+  width: 34px;
+}
+
+.lol-pic {
+  height: 70px;
+  width: 70px;
+}
+
+#randomLetter {
+  font-size: 130px;
+  text-align: center;
+}
+
+.champion-box {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
