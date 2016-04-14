@@ -46,6 +46,7 @@ angular.module('starter', ['ionic'])
       return el.substring(0,1) === $scope.lettera;
     })
   }
+  var a=0;
 
 })
 ;
