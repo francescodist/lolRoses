@@ -28,10 +28,12 @@
         <h1 class="title">League of Roses </h1><img id="icona-rosa" src="img/rosa.png"/>
       </ion-header-bar>
       <ion-content class="padding">
-        <div class="champion-box" ng-repeat="champ in championstroll">
+
+        <center><div class="champion-box" ng-repeat="champ in championstroll">
           <img  class="lol-pic" ng-src="img/{{champ}}Square.png">
           <div>{{champ}}</div>
-        </div>
+      </div></center>
+
         <h1 id="randomLetter">{{lettera}}</h1>
         <button class="button button-block button-positive" ng-click="troll()">
           Trolla!
