@@ -10,18 +10,60 @@
 }
 
 #randomLetter {
-  font-size: 130px;
-  text-align: center;
-  color: #f7c600;
+    font-family: 'EB Garamond', serif;
+    src: url('/www/fonts/EB_Garamond/EBGaramond-Regular.ttf');
+    font-size: 110px;
+    text-align: center;
+    color: #f7c600;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+
 }
 
 .champion-box {
   display: inline-block;
   margin: 1vmin;
+  font-family: 'EB Garamond', serif;
+  src: url('/www/fonts/EB_Garamond/EBGaramond-Regular.ttf');
+  font-size: 3vmin;
   text-align: center;
   color: #f7c600;
 }
 
 .pane {
-        background-color: #062c2c;
+        background-color: #00282f;
     }
+
+.champions-img{
+    height: 75vmax;
+    width:auto;
+    position:relative;
+}
+
+.btn-position{
+    position: absolute;
+    bottom:   0;
+}
+
+.button-troll{
+    background-color: #b25100 !important;
+    width: 120px !important;
+}
+
+.font-troll{
+    font-family: 'EB Garamond', serif;
+    src: url('/www/fonts/EB_Garamond/EBGaramond-Regular.ttf');
+    font-size: 16px;
+    color: white;
+    margin: auto;
+}
+
+.font-{
+    font-family: 'EB Garamond', serif;
+    src: url('/www/fonts/EB_Garamond/EBGaramond-Regular.ttf');
+    font-size: 16px;
+    color: white;
+    margin: auto;
+}

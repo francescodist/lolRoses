@@ -22,22 +22,24 @@
     <script src="js/app.js"></script>
   </head>
   <body ng-app="starter" ng-controller="randomCtrl">
-
     <ion-pane>
       <ion-header-bar align-title="center" class="bar-stable">
         <h1 class="title">League of Roses </h1><img id="icona-rosa" src="img/rosa.png"/>
       </ion-header-bar>
       <ion-content class="padding">
-
+          <div class = "champions-img">
         <center><div class="champion-box" ng-repeat="champ in championstroll">
           <img  class="lol-pic" ng-src="img/{{champ}}Square.png">
           <div>{{champ}}</div>
       </div></center>
 
         <h1 id="randomLetter">{{lettera}}</h1>
-        <button class="button button-block button-positive" ng-click="troll()">
-          Trolla!
+    </div>
+        <center><div>
+        <button class="button button-block button-positive button-troll" ng-click="troll()">
+          <h1 class = "font-troll">TROLL</h1>
         </button>
+    </div></center>
       </ion-content>
     </ion-pane>
   </body>
